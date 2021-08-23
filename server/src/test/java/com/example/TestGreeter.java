@@ -31,4 +31,3 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 }
-echo "good job"
