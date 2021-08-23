@@ -3,4 +3,4 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "michaelboua@yahoo.fr" 
-COPY webapp/target/welcome.war /usr/local/tomcat/webapps
+COPY ./target/welcome.war /usr/local/tomcat/webapps
