@@ -10,7 +10,7 @@ pipeline {
                git branch: 'release', url: 'https://github.com/gospelmike/code2'
             }
         }
-        stage('Build') {
+        stage('Build') { 
             steps {
                sh 'mvn clean install package'
             }
