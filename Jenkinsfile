@@ -1,4 +1,4 @@
-pipeline {
+pipeline { 
     tools {
      maven 'M3_HOME'
     }
