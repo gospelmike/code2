@@ -4,7 +4,7 @@ pipeline {
     }
     agent any
 
-    stages {
+    stages { 
         stage('Checkout') {
             steps {
                git branch: 'release', url: 'https://github.com/gospelmike/code2'
